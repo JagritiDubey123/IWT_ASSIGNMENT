@@ -1,0 +1,225 @@
+.bg1{
+    background-image: url("background/Brick wall grungy frame stock photo_ Image of architectural - 1479548.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 47pc;
+    width: 92pc;
+    /* top: 100px; */
+
+}
+.bg2{
+    background-image: url("background/Pin\ by\ مُـهـنَّــد\ هَــانِـي\ ☕🌿__\ on\ مهند\ _\ Dark\ background\ wallpaper\,\ Simple\ background\ images\,\ Phone\ wallpaper\ design.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 659px;
+    width: 92pc;
+    height: 50pc;
+
+}
+.bg3{
+    background-image: url("background/Pin\ by\ مُـهـنَّــد\ هَــانِـي\ ☕🌿__\ on\ مهند\ _\ Dark\ background\ wallpaper\,\ Simple\ background\ images\,\ Phone\ wallpaper\ design.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 550px;
+    height: 50pc;
+    width: 92pc;
+
+}
+.bg4{
+    background-image: url("background/Pin\ by\ مُـهـنَّــد\ هَــانِـي\ ☕🌿__\ on\ مهند\ _\ Dark\ background\ wallpaper\,\ Simple\ background\ images\,\ Phone\ wallpaper\ design.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 400px;
+    height: 50pc;
+    width: 92pc;
+
+}
+.bg5{
+    background-image: url("background/Pin\ by\ مُـهـنَّــد\ هَــانِـي\ ☕🌿__\ on\ مهند\ _\ Dark\ background\ wallpaper\,\ Simple\ background\ images\,\ Phone\ wallpaper\ design.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 306px;
+    height: 50pc;
+    width: 92pc;
+
+}
+.bg6{
+    background-image: url("background/Pin\ by\ مُـهـنَّــد\ هَــانِـي\ ☕🌿__\ on\ مهند\ _\ Dark\ background\ wallpaper\,\ Simple\ background\ images\,\ Phone\ wallpaper\ design.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 240px;
+    height: 50pc;
+    width: 92pc;
+
+}
+.bg7{
+    background-image: url("background/Pin\ by\ مُـهـنَّــد\ هَــانِـي\ ☕🌿__\ on\ مهند\ _\ Dark\ background\ wallpaper\,\ Simple\ background\ images\,\ Phone\ wallpaper\ design.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 170px;
+    height: 50pc;
+    width: 92pc;
+
+}
+
+
+
+
+.frame3 {
+    margin: 45px 100px;
+    height: max-content;
+    width: 30pc;
+}
+.frame3 img{
+    position: relative;
+    top: 10pc;
+    left: 2px;
+    width: 100px;
+    border-radius: 2000px;
+
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+
+}
+.box1{
+    border: 6px solid black;
+     height: 500px;
+     width: 1300px;
+     background-color: rgb(220, 223, 226);
+     margin-top:-9px;
+     margin-left: -32px;
+     
+}
+.box2{
+    border: 6px solid black;
+     height: 500px;
+     width: 1300px;
+     background-color: rgb(220, 223, 226);
+     
+}
+/*.imgr{
+    border-radius: 103px;
+margin-top: -92px;
+
+}*/
+.text{
+    /* border: 2px solid white; */
+    height: 199px;
+    width:1360px;
+    margin: 81px 61px;
+    font-size: 50px;
+     font-style: italic; 
+}
+.text1{
+     /* border: 2px solid white; */
+    height: 400px;
+    width: 1200px;
+    margin: 81px 61px;
+    font-size: 50px;
+     font-style: italic; 
+}
+.text2{
+    height: 400px;
+    width: 1200px;
+    margin: 81px 61px;
+    font-size: 40px;
+     font-style: italic;
+}
+.text3{
+    height: 400px;
+    width: 1200px;
+    margin: 81px 61px;
+    font-size: 40px;
+     font-style: italic;
+}
+.text4{
+    height: 400px;
+    width: 1200px;
+    margin: 81px 61px;
+    font-size: 35px;
+     font-style: italic;
+}
+.text5{
+    height: 400px;
+    width: 1200px;
+    margin: 81px 61px;
+    font-size: 35px;
+     font-style: italic;
+}
+.text6{
+    height: 400px;
+    width: 1200px;
+    margin: 81px 61px;
+    font-size: 35px;
+     font-style: italic;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.frame1{
+    margin:45px 100px;
+    height: max-content;
+    width: 30pc;
+
+}
+.frame1 img{
+    position: relative;
+    top: 60px;
+    left: 600px;
+    border-radius: 1000px;
+}
+
+.frame2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 3px 3046px 50px 41px;
+}
+nav ul
+        {
+          list-style: none;
+          margin:0;
+          padding:0;
+          position:relative;
+        }
+        nav ol a
+        {
+            text-decoration: none;
+        }
+nav ul li
+        {
+            font-size: 20px;
+            text-align: left;
+            background-color:darkcyan;
+            color:white;
+            margin:1px;
+            align-items: center;
+            padding-left:5px;
+            float:left; 
+            position: relative;
+            width:200px;
+            height: 30px;
+            box-shadow:2px 2px 3px gold;
+           
+        }
+       
+.navbar{
+    /* border: 2px solid red; */
+    margin:0px 25px;
+    height: 30px;
+}
+
+

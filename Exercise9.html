@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEEDBACK PAGE</title>
+</head>
+<body bgcolor="pink">
+    <table border="0" align="center" bgcolor="biege" cellspacing="2">
+        <form method="post" autocomplete="off">
+            <tr>
+                <td colspan="2">
+                <h1 align="center"><font color=teal>
+                    SOFTWARE FEEDBACK FORM
+                </font></h1>
+
+            </td></tr>
+            <TR>
+                <TD>
+                    <label>NAME:</label>
+                </TD>
+                <td>
+                    <input type="text" placeholder="Enter your name" name="uname" required />
+                </td>
+            </tr>
+                <tr>
+                <TD>
+                    
+                    <label>Email:</label></td>
+                   <td> <input type="text" placeholder="Mail" name="mail" required />
+                </TD>
+            </TR>
+            <tr>
+                <td>
+                    <label>Gender</label>
+                </td>
+                <td><input type=radio  name="gender" value="m" />Male
+                <input type=radio  name="gender" value="f" />Female
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Profession</label>
+                </td>
+                <td>
+                    <select name="profession"  size="1" >
+
+                    
+                    <option value="std">Student</option>
+                    <option value="teach">Teacher</option>
+                    <option value="bs">Business Man</option></select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                        Did our project met your expectation?
+                    </label>
+                </td>
+                <td>
+                    <input type="radio" name="expectation"value="y" />Yes
+                    <input type="radio" name="expectation"value="n" />No
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>What aspect of the product fascinated you the most?</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="fascinated" value="g" />Graphics
+                    <input type="checkbox" name="fascinated" value="u" />Ease of Use
+                    <input type="checkbox" name="fascinated" value="c" />Hardware Compatibility
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Overall Rating</label>
+                </td><br><br>
+                <td>
+                    <input type="radio" name="feed" value="p" />Poor
+                    <input type="radio" name="feed" value="G" />GOOD
+                    <input type="radio" name="feed" value="v" />VERY GOOD 
+                    <input type="radio" name="feed" value="e" />EXCELLENT
+
+                   
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>ANY SUGGESTION!!</label>
+                </td>
+                <TD> 
+                    <textarea rows="10" cols="50" name="comments" placeholder="Any Comments....." ></textarea>
+                </TD>
+                       </tr><br>
+                       <tr align="center" >
+                        <td colspan="2"><input type="reset" />
+                        <input type=submit />
+                    </td>
+                       </tr>
+        </form>
+    </table>
+</body>
+</html>

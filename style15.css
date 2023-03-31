@@ -1,0 +1,49 @@
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to top right, rgba(130, 201, 201, 0.692), rgba(224, 176, 224, 0.623), rgba(80, 109, 80, 0.575)), url("bgs/dark_wood.png");
+    background-size: cover;
+   font-size: 40px;
+}
+.highlight{
+    background-color: aqua;
+    color:black
+}
+p{
+    text-align:justify;
+    font-size: 20px;
+    text-indent: 80px;
+    color: aqua;
+    border-color: blueviolet;
+    border-style: double;
+    border-width: 10px;
+    border-top: solid green 2px;
+    border-radius: 40px;
+    padding: 20px 50px 10px 60px;
+    margin: 30px 60px 20px 70px;
+    outline: solid blue 2px;
+    outline-offset: 10px;
+    border: 30px;
+}
+p{
+    text-align:justify;
+    font-size: 20px;
+    text-indent: 80px;
+    color: aqua;
+    border-color: blueviolet;
+    border-style: double;
+    border-width: 10px;
+    border-top: solid rgba(31, 114, 161, 0.747) 2px;
+    border-radius: 40px;
+    padding: 20px 50px 10px 60px;
+    margin: 30px 60px 20px 70px;
+    outline: solid blue 2px;
+    outline-offset: 10px;
+    border: 30px;
+}
+img{
+    height: 200px;
+    border-radius: 50%;
+    display:block;
+    float:right;
+}

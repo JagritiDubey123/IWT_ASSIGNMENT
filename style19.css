@@ -1,0 +1,54 @@
+.CONTAINER{
+    margin-top: 70PX;
+    padding-top: 90px;
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+body{
+    background-color: palevioletred;
+    height: 100%;
+    width: 100%;
+}
+.container>div>img{
+    height: 150px;
+    width: 150px;
+    animation-name: animateOne;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+.container>div>p{
+    padding: 30px;
+    color: pink;
+    font-size: 20px;
+    animation-name: animateOne;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+.container>div:hover{
+transform: rotate(0deg);
+transition: 2s;
+}
+@keyframes animateOne{
+    from{
+        transform: rotate(0deg);
+        color: rgb(87, 228, 228);
+        left: 0px;
+    }
+    50%{
+        left: 100px;
+        top: 0px;
+    }
+    to{
+        color: rgb(75, 4, 75);
+        transform: rotate(100deg);
+        left: 200px;
+        top: 200px;
+    }
+}

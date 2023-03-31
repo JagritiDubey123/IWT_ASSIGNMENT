@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Layout</title>
+    <style>
+        *{
+            box-sizing: border-box;
+
+        }
+        .card{
+            position: relative;
+            width: 30%;
+            border: 2px solid black;
+            box-shadow: 5px 10px pink;
+            margin: 10px;
+            height: 800px;
+
+        }
+        .card>img{
+            width: 100%;
+            height: 500px;
+        }
+        .desc{
+            padding: 20px;
+        }
+        h2{
+            text-align: center;
+            color: blueviolet;
+        }
+        p{
+            text-align: justify;
+            color: aqua;
+        }
+        .date{
+            width: 30%;
+            color: plum;
+            font-size: 15px;
+            background-color: black;
+            position: absolute;
+            top: 96%;
+            left: 63%;
+            transform: rotate(-6deg);
+            text-align: center;
+        }
+        body{
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+            justify-content: center;
+            align-items: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        images2=["9.jpg", "10.jpeg", "22.jpg"];
+        date=["09-03-2023", "10-03-2023", "11-03-2023"];
+        titles=["Engagement", "Party", "Banasthali"];
+        desc=["An engagement or betrothal is the period of time between the declaration of acceptance of a marriage proposal and the marriage itself (which is typically but not always commenced with a wedding ","A party is a gathering of people who have been invited by a host for the purposes of socializing, conversation, recreation, or as part of a festival","Banasthali is one of the five higher education institute in India meant exclusively for Women. "<3];
+        for(i=0;i<3;i++){
+            card='<div class="card">'+'<img src="images2/'+images2[i]+' "/>'+'<div clASS="date">'+date[i]+'</div>'+'<div class="desc">'+'<h2>'+titles[i]+'</h2>'+'<p>'+desc[i]+'</p>'+'</div>'+'</div>';
+            document.write(card);
+        }
+    
+    </script>
+</body>
+</html>
